@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MRDViewController : UIViewController
+@interface MRDViewController : UIViewController <UIActionSheetDelegate, UIAlertViewDelegate> {
+	
+}
+
+- (IBAction)showActionSheet:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *coverVerticalLbl;
+@property (weak, nonatomic) IBOutlet UILabel *flipHorizontalLbl;
+@property (weak, nonatomic) IBOutlet UILabel *crossDissolveLbl;
+@property (weak, nonatomic) IBOutlet UILabel *partialCurlLbl;
 
 @end

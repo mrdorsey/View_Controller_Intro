@@ -17,13 +17,15 @@
 		45AFBD0C16B4F11400E20278 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AFBD0B16B4F11400E20278 /* Default@2x.png */; };
 		45AFBD0E16B4F11400E20278 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45AFBD0D16B4F11400E20278 /* Default-568h@2x.png */; };
 		45AFBD1116B4F11400E20278 /* MRDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AFBD1016B4F11400E20278 /* MRDViewController.m */; };
-		45AFBD1416B4F11400E20278 /* MRDViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45AFBD1216B4F11400E20278 /* MRDViewController_iPhone.xib */; };
-		45AFBD1716B4F11400E20278 /* MRDViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45AFBD1516B4F11400E20278 /* MRDViewController_iPad.xib */; };
+		45AFBD1416B4F11400E20278 /* MRDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45AFBD1216B4F11400E20278 /* MRDViewController.xib */; };
 		45AFBD1F16B4F11400E20278 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45AFBD1E16B4F11400E20278 /* SenTestingKit.framework */; };
 		45AFBD2016B4F11400E20278 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45AFBCF716B4F11400E20278 /* UIKit.framework */; };
 		45AFBD2116B4F11400E20278 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45AFBCF916B4F11400E20278 /* Foundation.framework */; };
 		45AFBD2916B4F11400E20278 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45AFBD2716B4F11400E20278 /* InfoPlist.strings */; };
 		45AFBD2C16B4F11400E20278 /* View_Controller_IntroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AFBD2B16B4F11400E20278 /* View_Controller_IntroTests.m */; };
+		45AFBD3816B4F1C100E20278 /* MRDModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AFBD3616B4F1C100E20278 /* MRDModalViewController.m */; };
+		45AFBD3916B4F1C100E20278 /* MRDModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45AFBD3716B4F1C100E20278 /* MRDModalViewController.xib */; };
+		45C95F1D16B5062400F41AE1 /* MRDViewControllerIntroConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C95F1C16B5062400F41AE1 /* MRDViewControllerIntroConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,14 +54,18 @@
 		45AFBD0D16B4F11400E20278 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		45AFBD0F16B4F11400E20278 /* MRDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRDViewController.h; sourceTree = "<group>"; };
 		45AFBD1016B4F11400E20278 /* MRDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRDViewController.m; sourceTree = "<group>"; };
-		45AFBD1316B4F11400E20278 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRDViewController_iPhone.xib; sourceTree = "<group>"; };
-		45AFBD1616B4F11400E20278 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRDViewController_iPad.xib; sourceTree = "<group>"; };
+		45AFBD1316B4F11400E20278 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRDViewController.xib; sourceTree = "<group>"; };
 		45AFBD1D16B4F11400E20278 /* View_Controller_IntroTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = View_Controller_IntroTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AFBD1E16B4F11400E20278 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		45AFBD2616B4F11400E20278 /* View_Controller_IntroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "View_Controller_IntroTests-Info.plist"; sourceTree = "<group>"; };
 		45AFBD2816B4F11400E20278 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45AFBD2A16B4F11400E20278 /* View_Controller_IntroTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View_Controller_IntroTests.h; sourceTree = "<group>"; };
 		45AFBD2B16B4F11400E20278 /* View_Controller_IntroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View_Controller_IntroTests.m; sourceTree = "<group>"; };
+		45AFBD3516B4F1C100E20278 /* MRDModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRDModalViewController.h; sourceTree = "<group>"; };
+		45AFBD3616B4F1C100E20278 /* MRDModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRDModalViewController.m; sourceTree = "<group>"; };
+		45AFBD3716B4F1C100E20278 /* MRDModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRDModalViewController.xib; sourceTree = "<group>"; };
+		45C95F1B16B5062400F41AE1 /* MRDViewControllerIntroConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRDViewControllerIntroConstants.h; sourceTree = "<group>"; };
+		45C95F1C16B5062400F41AE1 /* MRDViewControllerIntroConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRDViewControllerIntroConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,10 +127,14 @@
 			children = (
 				45AFBD0616B4F11400E20278 /* MRDAppDelegate.h */,
 				45AFBD0716B4F11400E20278 /* MRDAppDelegate.m */,
+				45AFBD3516B4F1C100E20278 /* MRDModalViewController.h */,
+				45AFBD3616B4F1C100E20278 /* MRDModalViewController.m */,
+				45AFBD3716B4F1C100E20278 /* MRDModalViewController.xib */,
 				45AFBD0F16B4F11400E20278 /* MRDViewController.h */,
 				45AFBD1016B4F11400E20278 /* MRDViewController.m */,
-				45AFBD1216B4F11400E20278 /* MRDViewController_iPhone.xib */,
-				45AFBD1516B4F11400E20278 /* MRDViewController_iPad.xib */,
+				45AFBD1216B4F11400E20278 /* MRDViewController.xib */,
+				45C95F1B16B5062400F41AE1 /* MRDViewControllerIntroConstants.h */,
+				45C95F1C16B5062400F41AE1 /* MRDViewControllerIntroConstants.m */,
 				45AFBCFE16B4F11400E20278 /* Supporting Files */,
 			);
 			path = View_Controller_Intro;
@@ -239,8 +249,8 @@
 				45AFBD0A16B4F11400E20278 /* Default.png in Resources */,
 				45AFBD0C16B4F11400E20278 /* Default@2x.png in Resources */,
 				45AFBD0E16B4F11400E20278 /* Default-568h@2x.png in Resources */,
-				45AFBD1416B4F11400E20278 /* MRDViewController_iPhone.xib in Resources */,
-				45AFBD1716B4F11400E20278 /* MRDViewController_iPad.xib in Resources */,
+				45AFBD1416B4F11400E20278 /* MRDViewController.xib in Resources */,
+				45AFBD3916B4F1C100E20278 /* MRDModalViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +288,8 @@
 				45AFBD0416B4F11400E20278 /* main.m in Sources */,
 				45AFBD0816B4F11400E20278 /* MRDAppDelegate.m in Sources */,
 				45AFBD1116B4F11400E20278 /* MRDViewController.m in Sources */,
+				45AFBD3816B4F1C100E20278 /* MRDModalViewController.m in Sources */,
+				45C95F1D16B5062400F41AE1 /* MRDViewControllerIntroConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +320,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		45AFBD1216B4F11400E20278 /* MRDViewController_iPhone.xib */ = {
+		45AFBD1216B4F11400E20278 /* MRDViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				45AFBD1316B4F11400E20278 /* en */,
 			);
-			name = MRDViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		45AFBD1516B4F11400E20278 /* MRDViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				45AFBD1616B4F11400E20278 /* en */,
-			);
-			name = MRDViewController_iPad.xib;
+			name = MRDViewController.xib;
 			sourceTree = "<group>";
 		};
 		45AFBD2716B4F11400E20278 /* InfoPlist.strings */ = {
@@ -462,6 +466,7 @@
 				45AFBD3116B4F11400E20278 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45AFBD3216B4F11400E20278 /* Build configuration list for PBXNativeTarget "View_Controller_IntroTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +475,7 @@
 				45AFBD3416B4F11400E20278 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
